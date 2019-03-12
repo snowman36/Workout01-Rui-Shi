@@ -7,4 +7,4 @@ output: github_document
 
 
 #READ ME
-This workout is to .... 
+This workout is to use Golden Stat Warriors starters players' data to make visualization. And include a final report.
