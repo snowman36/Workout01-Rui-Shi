@@ -92,6 +92,7 @@ gsw_shot_chart <- ggplot(data=total, aes(x=x,y=y)) +
   ggtitle('Shot Chart: GSW Shot Charts (2016 season)') +
   theme_minimal()+
   facet_wrap(.~player)
+gsw_shot_chart
 dev.off()
 
 png(filename = "./images/gsw-shot-charts.png",width = 800,height = 700)
